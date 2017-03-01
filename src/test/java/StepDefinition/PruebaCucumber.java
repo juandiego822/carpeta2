@@ -2,8 +2,6 @@ package StepDefinition;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,7 +39,7 @@ public class PruebaCucumber {
 		resultado = driver.findElement(By.id("res1")).getText();
 		System.out.println(resultado);
 		//Assert.assertEquals("COP/USD = 2.865,2", driver.findElement(By.id("res1")).getText());
-		assertEquals("100,00 USD = 287.324,85 COP", resultado);
+		assertEquals("100,00 USD = 293.717,06 COP", resultado);
 		driver.close();
 			
 	}

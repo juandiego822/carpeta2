@@ -30,7 +30,7 @@ Feature: Conversor de monedas universal
   Scenario: convertir dolares a pesos con parametros
     Given que quiero convertir dolares en pesos
     When convierto "100" dolares en pesos
-    Then el resultado es "100,00 USD = 287.324,85 COP"
+    Then el resultado es "100,00 USD = 293.717,06 COP"
 
   @tag5
   Scenario Outline: persona con sobrepeso
